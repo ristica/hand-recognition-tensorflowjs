@@ -78,7 +78,7 @@ async function main() {
 
     setInterval(() => {
         detectLandmarks(video, detector);
-    });
+    }, 10);
 
 }
 
